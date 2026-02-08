@@ -6,7 +6,7 @@ Atak.py przeprowadza atak z simulated annealing na kryptotekst szyfrowany grille
 Program po okolo minucie ze skutecznoscia okolo 90% zwroci rozszyfrowany tekst i uzyty grill/klucz. 
 
 Juz przy n = 14 istnieje az 4^49 mozliwych kluczy/grillow. 
-Metoda simulated annealing znacznie przyspiesza przeszukiwanie przestrzen kluczy. 
+Metoda simulated annealing znacznie przyspiesza przeszukiwanie przestrzeni kluczy. 
 
 Instrukcja obslugi:
 1. Wygenerowac kryptotekst w cardan4.py
