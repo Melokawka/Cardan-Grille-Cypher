@@ -3,11 +3,11 @@ The project implements the cardan-grille cypher and proceeds to attack the gener
 
 Szyfr rotacyjny Cardan grille
 
-Atak.py przeprowadza atak z simulated annealing na kryptotekst szyfrowany grillem Kardano o znanym rozmiarze grilla
-Program po okolo minucie ze skutecznoscia okolo 90% zwroci rozszyfrowany tekst i uzyty grill/klucz
+Atak.py przeprowadza atak z simulated annealing na kryptotekst szyfrowany grillem Kardano o znanym rozmiarze grilla. 
+Program po okolo minucie ze skutecznoscia okolo 90% zwroci rozszyfrowany tekst i uzyty grill/klucz. 
 
-Juz przy n = 14 istnieje az 4^49 mozliwych kluczy/grillow
-Metoda simulated annealing znacznie przyspiesza przeszukiwanie przestrzeni klucza:
+Juz przy n = 14 istnieje az 4^49 mozliwych kluczy/grillow. 
+Metoda simulated annealing znacznie przyspiesza przeszukiwanie przestrzeni klucza. 
 
 Instrukcja obslugi:
 1. Wygenerowac kryptotekst w cardan4.py
@@ -26,12 +26,12 @@ Zastosowane idee:
    zwiekszenia efektywnosci ataku
 4. Wygenerowano wlasne statystyki quadgramow hiszpanskich z 5 wspolczesnych ksiazek hiszpanskich (2500 stron)
 
-Im wiecej kryptotekstu tym bardziej skuteczne lamanie szyfru
+Im wiecej kryptotekstu tym bardziej skuteczne lamanie szyfru. 
 
-Automatyczne znajdowanie rozmiaru grilla podczas ataku zostalo wylaczone
-Konieczne jest dostosowanie dlugosci ataku na kazdy potencjalny rozmiar grilla
-W przeciwnym razie male grille (n = 4) sa oceniane zbyt wysoko bo maja zbyt duzo czasu na uzyskanie czytelnosci
+Automatyczne znajdowanie rozmiaru grilla podczas ataku zostalo wylaczone. 
+Konieczne jest dostosowanie dlugosci ataku na kazdy potencjalny rozmiar grilla, 
+w przeciwnym razie male grille (n = 4) sa oceniane zbyt wysoko bo maja zbyt duzo czasu na uzyskanie czytelnosci. 
 
-Nie wprowadzono ograniczenia czasowego dla ataku
-Gdyz wielowatkowosc to utrudnia (koniecznosc dostosowywania wielu parametrow)
-Oraz przez to ze za czas ataku i tak odpowiada glownie 1 parametr - tempDelta
+Nie wprowadzono ograniczenia czasowego dla ataku, 
+gdyz wielowatkowosc to utrudnia (koniecznosc dostosowywania wielu parametrow)
+oraz przez to ze za czas ataku i tak odpowiada glownie 1 parametr - tempDelta.
